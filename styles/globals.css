@@ -1,0 +1,37 @@
+@import "./modal.css";
+div#__next {
+  position: relative;
+  height: 100%;
+}
+#main > section {
+  transform: translate3d(-100%, 0, 0) !important;
+}
+#main > section.active {
+  transform: translate3d(0%, 0, 0) !important;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+span.sc-bdVaJa.bBePZj {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .close-project.is-visible {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .back-mobile.close-project {
+    line-height: 55px;
+  }
+}
+
+.empty_notice {
+  color: red;
+}
+.returnmessage {
+  color: green;
+}
